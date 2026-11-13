@@ -2,7 +2,7 @@
 from importlib import import_module
 from ..config import MODEL_IDS
 
-EMBEDDING_DIMENSIONS = {'resnet18': 512, 'convnext_tiny': 768, 'vit_b_16': 768, 'dinov2_vits14': 384}
+EMBEDDING_DIMENSIONS = {'resnet18': 512, 'resnet18_scratch': 512, 'convnext_tiny': 768, 'vit_b_16': 768, 'dinov2_vits14': 384}
 
 
 def load_backbone(name, device):
