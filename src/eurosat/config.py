@@ -14,7 +14,7 @@ BASE_CLASSES = ['AnnualCrop', 'Forest', 'Highway', 'Industrial', 'Residential', 
 NOVEL_CLASSES = ['HerbaceousVegetation', 'Pasture', 'PermanentCrop', 'River']
 MODEL_IDS = {
     'resnet18': 'torchvision.ResNet18_Weights.IMAGENET1K_V1',
-    'resnet18_scratch': 'resnet18-random-init-base6-v1'
+    'resnet18_scratch': 'resnet18-random-init-base6-v1',
     'convnext_tiny': 'torchvision.ConvNeXt_Tiny_Weights.IMAGENET1K_V1',
     'vit_b_16': 'torchvision.ViT_B_16_Weights.IMAGENET1K_V1',
     'dinov2_vits14': 'facebookresearch/dinov2:' + DINO_REVISION + '/dinov2_vits14',
